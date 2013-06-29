@@ -1,5 +1,6 @@
 
 <!DOCTYPE html>
+<!-- I use git.-->
 <html>
   <head>
     <meta charset='utf-8' />
@@ -40,13 +41,15 @@ $("#aboutnav").parent().addClass("active");
 $("#education").hide();
     $("#projects").hide(); 
     $("#experience").hide();
-    $("#about").show();
+    $("#gezi").hide();
     $("#photos").hide(); 
     $("#blog").hide();
+    $("#about").show();
 
   $("#edunav").click(function(){
   	$("#edunav").parent().addClass("active");
     $("#education").show(); 
+    $("#gezi").hide(); $("#gezinav").parent().removeClass("active");
     $("#projects").hide(); $("#projnav").parent().removeClass("active");
     $("#experience").hide(); $("#expnav").parent().removeClass("active");
     $("#about").hide(); $("#aboutnav").parent().removeClass("active");
@@ -58,6 +61,7 @@ $("#education").hide();
   $("#projnav").parent().addClass("active");
     $("#education").hide(); $("#edunav").parent().removeClass("active");
     $("#projects").show();
+    $("#gezi").hide(); $("#gezinav").parent().removeClass("active");
     $("#experience").hide(); $("#expnav").parent().removeClass("active");
     $("#about").hide(); $("#aboutnav").parent().removeClass("active");
     $("#photos").hide(); $("#photosnav").parent().removeClass("active");
@@ -69,6 +73,7 @@ $("#education").hide();
     $("#education").hide(); $("#edunav").parent().removeClass("active");
     $("#projects").hide(); $("#projnav").parent().removeClass("active");
     $("#experience").show(); 
+    $("#gezi").hide(); $("#gezinav").parent().removeClass("active");
     $("#about").hide(); $("#aboutnav").parent().removeClass("active");
     $("#photos").hide(); $("#photosnav").parent().removeClass("active");
     $("#blog").hide(); $("#blognav").parent().removeClass("active");
@@ -80,6 +85,7 @@ $("#education").hide();
     $("#projects").hide(); $("#projnav").parent().removeClass("active");
     $("#experience").hide(); $("#expnav").parent().removeClass("active");
     $("#about").show(); 
+    $("#gezi").hide(); $("#gezinav").parent().removeClass("active");
     $("#photos").hide(); $("#photosnav").parent().removeClass("active");
     $("#blog").hide(); $("#blognav").parent().removeClass("active");
   });
@@ -91,6 +97,7 @@ $("#education").hide();
     $("#experience").hide(); $("#expnav").parent().removeClass("active");
     $("#about").hide(); $("#aboutnav").parent().removeClass("active");
     $("#photos").show(); 
+    $("#gezi").hide(); $("#gezinav").parent().removeClass("active");
     $("#blog").hide(); $("#blognav").parent().removeClass("active");
   });
   
@@ -101,6 +108,7 @@ $("#education").hide();
     $("#experience").hide(); $("#expnav").parent().removeClass("active");
     $("#about").hide(); $("#aboutnav").parent().removeClass("active");
     $("#photos").show(); 
+    $("#gezi").hide(); $("#gezinav").parent().removeClass("active");
     $("#blog").hide(); $("#blognav").parent().removeClass("active");
   });
   
@@ -111,7 +119,19 @@ $("#education").hide();
     $("#experience").hide(); $("#expnav").parent().removeClass("active");
     $("#about").hide(); $("#aboutnav").parent().removeClass("active");
     $("#photos").hide(); $("#photosnav").parent().removeClass("active");
+    $("#gezi").hide(); $("#gezinav").parent().removeClass("active");
     $("#blog").show(); 
+  });
+
+  $("#gezinav").click(function(){
+  $("#gezinav").parent().addClass("active");
+    $("#education").hide(); $("#edunav").parent().removeClass("active");
+    $("#projects").hide(); $("#projnav").parent().removeClass("active");
+    $("#experience").hide(); $("#expnav").parent().removeClass("active");
+    $("#about").hide(); $("#aboutnav").parent().removeClass("active");
+    $("#photos").hide(); $("#photosnav").parent().removeClass("active");
+    $("#blog").hide(); $("#blognav").parent().removeClass("active");
+    $("#gezi").show(); 
   });
   
   
@@ -208,6 +228,9 @@ $(".singlephoto").fancybox({
             <li>
               <a href='#' id='photosnav'>Photography</a>
             </li>
+            <li>
+              <a href='#' id='gezinav'>What is hapenning in Turkey?</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -220,10 +243,46 @@ $(".singlephoto").fancybox({
           <div class='twelve columns'>
             <h2>About</h2>
             <p>
-              <p>My name is Albert. I was born in Istanbul, Turkey where I went to the 
-              Austrian High School. I spent my junior year in Oviedo, Spain as an AFS Exchange
-              student. After graduating from high school, I came to America to 
-              pursue my Bachelors degree in Computer Science.
+              <p>My name is Albert. I was born and raised in the beautiful city of <a target='_blank' href="http://en.wikipedia.org/wiki/Istanbul">Istanbul</a>, in  
+              <a target='_blank' href="http://en.wikipedia.org/wiki/Turkey">Turkey</a>. <br><br>
+
+                <div class="tumblr_quote">
+                    <span class="tumblr_open_quote">“</span>If the world was only one country, Istanbul would be its capital.<span class="tumblr_close_quote">”</span>
+                </div>
+                <div class="tumblr_source">
+                        Napoleon
+                    </div><br><br><br>
+
+
+              I went to the 
+              <a target='_blank' href="http://en.wikipedia.org/wiki/St._George's_Austrian_High_School">Austrian High School</a> and 
+              spent my junior year in <a target='_blank' href="http://en.wikipedia.org/wiki/Oviedo">Oviedo</a>, 
+              Spain as an <a target='_blank' href="http://en.wikipedia.org/wiki/AFS_Intercultural_Programs">AFS Exchange</a>
+              student. <br><br><br>
+
+              After graduating from high school, I came to America in order to 
+              pursue my Bachelors degree in Computer Science at <a target='_blank' href="http://en.wikipedia.org/wiki/Hampton_University">Hampton University</a>. 
+              <br><br><br>
+
+              I finished my
+              sophomore year in May 2013 and I am currently interning at Carnegie Mellon University's
+              <a target='_blank' href="http://en.wikipedia.org/wiki/Robotics_Institute">Robotics Institute</a> 
+              as a researcher under <a target='_blank' href="http://en.wikipedia.org/wiki/David_S._Touretzky">Dr. Dave Touretzky</a>.
+
+
+              <br><br><br>
+              Here is an interview of my great aunt <a target="_blank" href="http://en.wikipedia.org/wiki/Seyla_Benhabib" >Seyla Benhabib</a> 
+              explaining her family background which is very similar to mine.
+            
+
+              <br><br>
+                  <div videoID="nfQqPdcAG60" startTime="66" endTime="581" height="400" width="600" id="youtube-player"></div>
+ 
+                  <script src="http://labnol.googlecode.com/files/youtube-embed.js"></script>
+        
+              <br><br><br>
+              
+
               </p>
             </p>
           </div>
@@ -236,6 +295,29 @@ $(".singlephoto").fancybox({
             <h2><a href="http://alberttoledo.tumblr.com">Blog</a></h2>
             
             <script type="text/javascript" src="http://alberttoledo.tumblr.com/js"></script> 
+            
+            
+          </div>
+        </div>
+
+
+        <div class='row' id='gezi'>
+          <div class='twelve columns'>
+            <h2><a href="http://whatishappeninginturkey.tumblr.com">What is happening in Turkey?</a></h2>
+            
+              <h4 class="subheader">The AKP government in Turkey has been in the power for more than
+                10 years. Slowly they started to use more and more pressure on the Turkish
+                people's lives. They wanted to control what we watch, what we read,
+                what we say, what we drink, where we drink, when we drink... 
+                They made our own police attack our own people. 
+                They used political power to make dishonest fortunes. </br> </br>
+                Today, countless friends of mine along with hundreds of thousands of other people
+                all over the country are resisting against the AKP government in a peaceful, smart and creative way.</br></br>
+                I am 8 thousand kilometers away from home, and I am supporting them with this feed where I will publish news, creative work and more about
+                the resistance. #direnGezi
+              </h4>
+
+            <script type="text/javascript" src="http://whatishappeninginturkey.tumblr.com/js"></script> 
             
             
           </div>
@@ -433,7 +515,9 @@ $(".singlephoto").fancybox({
             <h3>IES Pando</h3>
                 <h4 class='subheader'>Science and Technology (AFS Exchange Student) 2009 - 2010</h4>
                 <h4 class='subheader'>Oviedo, Spain</h4>
+                <br><br><br>
           </div>
+          
         </div>
         <div class='row' id='experience'>
           <div class='twelve columns'>
@@ -797,5 +881,7 @@ loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure"
 olark.identify('8688-465-10-8445');/*]]>*/</script><noscript><a href="https://www.olark.com/site/8688-465-10-8445/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
 <!-- end olark code -->
     
+
+
   </body>
 </html>
