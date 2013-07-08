@@ -1,16 +1,18 @@
 ::selection {
-	background: #ffb7b7; /* Safari */
-	}
-::-moz-selection {
-	background: #ffb7b7; /* Firefox */
+  background: #ffb7b7; /* Safari */
 }
 
+::-moz-selection {
+  background: #ffb7b7; /* Firefox */
+}
 
 .center {
-  text-align: center; }
+  text-align: center;
+}
 
 .clear {
-  clear: both; }
+  clear: both;
+}
 
 .fixed-nav {
   background: rgb(255, 184, 0);
@@ -19,131 +21,160 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 2; }
+  z-index: 2;
+}
 
 .fixed-nav-list {
   position: fixed;
-  top: 60px; }
+  top: 60px;
+}
 
 .slim {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 .fat {
-  margin-bottom: 56px; }
+  margin-bottom: 56px;
+}
 
 header {
-
-background-image: url('../coverclear.jpg');
+  background-image: url('../coverclear.jpg');
 }
 
 #headers {
   height: 300px;
-  padding-top: 60px; }
-  #headers .columns {
-    background: rgba(255, 255, 255, 0.75);
-    margin: 0;
-    padding: 0.3em 15px; }
-  #headers h1 {
-    font-size: 23px; }
-  #headers h2 {
-    font-size: 44px; }
+  padding-top: 60px;
+}
+
+#headers .columns {
+  background: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  padding: 0.3em 15px;
+}
+
+#headers h1 {
+  font-size: 23px;
+}
+
+#headers h2 {
+  font-size: 44px;
+}
 
 #nav-bar .twelve {
-  padding: 0; }
-  
-#nav-bar {
-height: 40px;
-background-color: rgb(255, 184, 0);
+  padding: 0;
 }
 
+#nav-bar {
+  height: 40px;
+  background-color: rgb(255, 184, 0);
+}
 
 #navdown {
-margin-top: 10px;
-width: 90%;
+  margin-top: 10px;
+  width: 90%;
 }
 
-.nav-bar li,
-.nav-bar li:last-child,
-.nav-bar li a {
+.nav-bar li,.nav-bar li:last-child,.nav-bar li a {
   border: none;
+
+  -webkit-box-shadow: none;
   box-shadow: none;
-  line-height: 40px; }
+  line-height: 40px;
+}
 
 #nav-list {
-  padding: 0; }
+  padding: 0;
+}
 
 a.label:hover {
   background: #6eb534;
-  color: white; }
+  color: white;
+}
 
 ul.inline {
   display: inline;
-  list-style-type: none; }
-  ul.inline li {
-    float: left;
-    margin: 0 5px 0 0; }
-    
-
-#photos a img{
-	display: inline-block;
-	margin-bottom: 5px;
-	max-width: 200px;
-	max-height: 100px;
-	margin-left: 5px;
+  list-style-type: none;
 }
 
-
-.tumblr_posts{
-	list-style: none;
+ul.inline li {
+  float: left;
+  margin: 0 5px 0 0;
 }
 
-.tumblr_title{
-	font-weight: bold;
-	font-size: 27px;
+#photos a img {
+  display: inline-block;
+  margin-bottom: 5px;
+  max-width: 200px;
+  max-height: 100px;
+  margin-left: 5px;
 }
 
-.tumblr_source{
-	padding: 1px 4px 2px;
-font-size: 20px;
+.tumblr_posts {
+  list-style: none;
+}
+
+.tumblr_title {
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.tumblr_source {
+  padding: 1px 4px 2px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1;
+  white-space: nowrap;
+  display: inline;
+  position: relative;
+  bottom: 1px;
+  color: #fff;
+  background: #2ba6cb;
+  margin-left: 40px;
+}
+
+.tumblr_quote {
+  line-height: 1.3;
+  color: #777;
+  font-weight: 300;
+  margin-bottom: 17px;
+  font-size: 23px;
+}
+
+.tumblr_post {
+  margin-bottom: 60px;
+  border-bottom: 5px solid rgb(207, 207, 207);
+  padding-bottom: 5px;
+}
+
+.tumblr_post img {
+  border: 2px solid #2ba6cb;
+  border-radius: 2px;
+}
+
+#top_border {
+  min-height: 8px;
+  background-image: url("../colors.png");
+}
+
+.tumblr_video iframe {
+  border: 2px solid #2ba6cb;
+  border-radius: 2px;
+}
+
+.tumblr_link {
+font-size: 30px;
+}
+
+#gezinav {
+color: #2ba6cb;
 font-weight: bold;
-text-align: center;
-text-decoration: none;
-line-height: 1;
-white-space: nowrap;
-display: inline;
-position: relative;
-bottom: 1px;
-color: #fff;
-background: #2ba6cb;
-margin-left: 40px;
+border-bottom: 2px solid #2ba6cb;
 }
 
-.tumblr_quote{
-	line-height: 1.3;
-color: #777;
-font-weight: 300;
-margin-bottom: 17px;
-font-size: 23px;
-}
-
-.tumblr_post{
-	margin-bottom: 60px;
-	border-bottom: 1px solid rgb(207, 207, 207);
-	padding-bottom: 5px;
-}
-
-.tumblr_post img{
-	border: 2px solid #2ba6cb;
-	border-radius: 2px;
-}
-
-#top_border{
-	min-height: 8px;
-	background-image: url("../colors.png");
-}	
-
-.tumblr_video iframe{
-	border: 2px solid #2ba6cb;
-	border-radius: 2px;
+li.active #gezinav {
+color: rgb(255, 184, 0);
+border-bottom-color: rgb(255, 184, 0);
 }

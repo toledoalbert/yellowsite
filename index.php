@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <!-- I use git.-->
+<--git is cool-->
 <html>
   <head>
     <meta charset='utf-8' />
