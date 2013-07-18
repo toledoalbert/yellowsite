@@ -639,6 +639,7 @@ $(".singlephoto").fancybox({
                 </a>
             </h3>
             <h4 class='subheader'>
+              Independent
               <small>July 2013</small>
             </h4>
             <ul class='inline'>
