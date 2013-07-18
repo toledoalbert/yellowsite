@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <!-- I use git.-->
-<--git is cool-->
+<!--git is cool-->
 <html>
   <head>
     <meta charset='utf-8' />
@@ -633,6 +633,28 @@ $(".singlephoto").fancybox({
           <div class='twelve columns'>
             <h2>Projects</h2>
             
+            <h3>  
+            <a href="http://github.com/toledoalbert/Tekkotsu-Syntax.git">
+                Tekkotsu Syntax Highlighting
+                </a>
+            </h3>
+            <h4 class='subheader'>
+              <small>July 2013</small>
+            </h4>
+            <ul class='inline'>
+              <li>
+                <span class='label'>JSON</span>
+              </li>
+              <li>
+                <span class='label'>Plist</span>
+              </li>
+            </ul>
+            <p class='clear'>
+              <p>We were working on Tekkotsu programming but our text editors could
+                only highlight the C++ part of the code. So, we decided to make
+                a syntax definition for Tekkotsu and put it public on Github
+                for tens of schools who teach robotics using Tekkotsu.</p>
+            </p>
             
             <h3>
                 ReYou Android App
