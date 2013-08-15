@@ -634,7 +634,7 @@ $(".singlephoto").fancybox({
             <h2>Projects</h2>
             
             <h3>  
-            <a href="http://github.com/toledoalbert/Tekkotsu-Syntax.git">
+            <a target="_blank" href="http://github.com/toledoalbert/Tekkotsu-Syntax.git">
                 Tekkotsu Syntax Highlighting
                 </a>
             </h3>
