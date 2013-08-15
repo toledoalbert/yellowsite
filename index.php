@@ -229,9 +229,6 @@ $(".singlephoto").fancybox({
             <li>
               <a href='#' id='photosnav'>Photography</a>
             </li>
-            <li>
-              <a href='#' id='gezinav'>What is hapenning in Turkey?</a>
-            </li>
           </ul>
         </div>
       </div>
